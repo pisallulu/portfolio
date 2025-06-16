@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Hi</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm CHEN PISAL!!</h1> 
+        <p>Software Development Student at Norton University | Creative Coder</p>
+        <div class="buttons">
+            <a href="#work" class="btn">View My Work</a>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <img src="../assets/images/2.png" class="profile-pic" alt="Profile Picture">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I am a motivated and detail-oriented individual with a strong commitment to excellence and continuous learning...</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-icons">
+            <div class="icon">
+                <i class="fab fa-html5"></i>
+                
+            </div>
+            <div class="icon">
+                <i class="fab fa-css3-alt"></i>
+                
+            </div>
+            <div class="icon">
+                <i class="fab fa-js"></i>
+                
+            </div>
+            <div class="icon">
+                <i class="fab fa-figma"></i>
+            </div>
+            <div class="icon">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-flutter"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <h3>Project Title</h3>
+                <p>Project description goes here.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Title</h3>
+                <p>Project description goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Chen Pisal | Built with ❤️ and Coffee</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
