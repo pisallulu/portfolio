@@ -88,6 +88,13 @@ input,textarea{width:100%;padding:.8rem;border-radius:8px;border:1px solid rgba(
 /* Dark/Light theme toggle via data attribute */
 html[data-theme='light']{ --bg:#f6f7fb; --panel:#ffffff; --muted:#475569; --text:#0b1220; --accent:#ff7a42; --accent-2:#ff985e }
 
+.logo img {
+    /* Adjust this height to fit your design */
+    height: 40px; 
+    width: auto;  /* This keeps the logo from looking stretched */
+    border-radius: 50px;
+    display: block;
+}
 @media (max-width:880px){
     .hero-inner{grid-template-columns:1fr}
     .about-grid{grid-template-columns:1fr}
