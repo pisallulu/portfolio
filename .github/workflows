@@ -28,7 +28,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./  # or ./docs if your site is in docs folder
+          source: index.html  # or ./docs if your site is in docs folder
           destination: ./_site
       
       - name: Upload artifact
